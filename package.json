@@ -1,0 +1,23 @@
+{
+  "name": "sarkari-form-helper",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-react-ssg build",
+    "preview": "vite preview",
+    "test": "node scripts/test-fit-jpeg.js"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^6.30.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tailwindcss": "^4.1.14",
+    "vite": "^6.3.6",
+    "vite-react-ssg": "^0.8.8"
+  }
+}

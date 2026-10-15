@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  color: #14261c;
+  font-family: "Nirmala UI", "Noto Sans Devanagari", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(900px 420px at 0% -10%, rgba(15, 118, 78, 0.16), transparent 60%),
+    radial-gradient(700px 380px at 100% 0%, rgba(217, 119, 6, 0.14), transparent 55%),
+    #f6f3ec;
+}
+
+.page-reload {
+  animation: page-reload 0.45s ease;
+}
+
+@keyframes page-reload {
+  0% { opacity: 0; }
+  35% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.reload-bar {
+  width: 0;
+  animation: reload-bar 0.55s ease forwards;
+}
+
+@keyframes reload-bar {
+  0% { width: 0; opacity: 1; }
+  75% { width: 100%; opacity: 1; }
+  100% { width: 100%; opacity: 0; }
+}
+.hide-scroll {
+  scrollbar-width: none;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
